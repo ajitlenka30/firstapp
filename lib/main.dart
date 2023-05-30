@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -38,20 +39,12 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Container (
-            width: 100,
-            height: 100,
-            color: Colors.grey,
-            child: const Center(child: Text('hiiii Ajit', style: TextStyle(
-                fontSize: 20,
-                color: Colors.cyanAccent,
-                backgroundColor: Colors.orangeAccent,
-                fontWeight: FontWeight.bold
-            ),
-            ),
-            ),
-        ),)
+      body: TextButton(
+        child: const Text('hiii ajit'),
+        onPressed: (){
+          print('hiii text button working');
+        },
+      )
     ); // This trailing comma makes auto-formatting nicer for build methods.
   }
 }
