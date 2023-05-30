@@ -39,10 +39,10 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: TextButton(
+      body: ElevatedButton(
         child: const Text('hiii ajit'),
         onPressed: (){
-          print('hiii text button working');
+          print('hiii elevated button working');
         },
         onLongPress: (){
           print('long press worling');
