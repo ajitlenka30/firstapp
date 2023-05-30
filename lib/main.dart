@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: ElevatedButton(
+      body: OutlinedButton(
         child: const Text('hiii ajit'),
         onPressed: (){
           print('hiii elevated button working');
