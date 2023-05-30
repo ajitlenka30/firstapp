@@ -39,14 +39,16 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: OutlinedButton(
-        child: const Text('hiii ajit'),
-        onPressed: (){
-          print('hiii elevated button working');
-        },
-        onLongPress: (){
-          print('long press worling');
-        },
+      body: Center(
+        child: OutlinedButton(
+          child: const Text('hiii ajit'),
+          onPressed: (){
+            print('hiii elevated button working');
+          },
+          onLongPress: (){
+            print('long press worling');
+          },
+        ),
       )
     ); // This trailing comma makes auto-formatting nicer for build methods.
   }
