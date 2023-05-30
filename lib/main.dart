@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Container (
             width: 100,
             height: 100,
-            color: Colors.purple,
+            color: Colors.grey,
             child: Center(child: const Text('hiiii', style: TextStyle(fontSize: 25),)),
         ),
       ),
