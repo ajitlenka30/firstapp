@@ -39,17 +39,8 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Center(
-        child: ElevatedButton(
-          child: const Text('hiii ajit'),
-          onPressed: (){
-            print('hiii elevated button working');
-          },
-          onLongPress: (){
-            print('long press worling');
-          },
-        ),
-      )
-    ); // This trailing comma makes auto-formatting nicer for build methods.
+      body:  Image.asset('assets/images/a.jpeg')
+
+      );
   }
 }
