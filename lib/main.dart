@@ -43,7 +43,15 @@ class _MyHomePageState extends State<MyHomePage> {
             width: 100,
             height: 100,
             color: Colors.grey,
-            child: const Center(child: Text('hiiii Ajit', style: TextStyle(fontSize: 20,color: Colors.cyanAccent,backgroundColor: Colors.orangeAccent,fontWeight: FontWeight.bold),),),),)
+            child: const Center(child: Text('hiiii Ajit', style: TextStyle(
+                fontSize: 20,
+                color: Colors.cyanAccent,
+                backgroundColor: Colors.orangeAccent,
+                fontWeight: FontWeight.bold
+            ),
+            ),
+            ),
+        ),)
     ); // This trailing comma makes auto-formatting nicer for build methods.
   }
 }
