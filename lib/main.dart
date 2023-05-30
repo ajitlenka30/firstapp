@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: Center(
-        child: OutlinedButton(
+        child: ElevatedButton(
           child: const Text('hiii ajit'),
           onPressed: (){
             print('hiii elevated button working');
