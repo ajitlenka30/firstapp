@@ -44,6 +44,9 @@ class _MyHomePageState extends State<MyHomePage> {
         onPressed: (){
           print('hiii text button working');
         },
+        onLongPress: (){
+          print('long press worling');
+        },
       )
     ); // This trailing comma makes auto-formatting nicer for build methods.
   }
