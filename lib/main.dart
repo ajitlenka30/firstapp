@@ -39,7 +39,11 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body:  Center(child: Image.asset('assets/images/a.jpeg'))
+      body:  Center(
+          child: Container(
+              width: 300,
+              height: 300,
+              child: Image.asset('assets/images/a.jpeg')))
 
       );
   }
