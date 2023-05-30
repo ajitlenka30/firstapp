@@ -31,7 +31,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,9 +43,8 @@ class _MyHomePageState extends State<MyHomePage> {
             width: 100,
             height: 100,
             color: Colors.grey,
-            child: Center(child: const Text('hiiii', style: TextStyle(fontSize: 25),)),
-        ),
-      ),
+            child: const Center(child: Text('hiiii Ajit', style: TextStyle(fontSize: 20,color: Colors.cyanAccent),
+            ),),),)
     ); // This trailing comma makes auto-formatting nicer for build methods.
   }
 }
